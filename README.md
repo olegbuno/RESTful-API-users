@@ -10,6 +10,7 @@ password (hash)
 4. /users/:id PUT, DELETE - update/delete user, add validation.
 
 To run project:
+
 virtualenv env - create virtual environment
 
 .\env\Scripts\activate - activate venv
