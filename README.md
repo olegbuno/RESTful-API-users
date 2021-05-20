@@ -11,9 +11,15 @@ password (hash)
 
 To run project:
 virtualenv env - create virtual environment
+
 .\env\Scripts\activate - activate venv
+
 pip install -r requirements.txt - install requirements
+
 python manage.py makemigrations - create migrations
+
 python manage.py migrate - run migrations
+
 python manage.py createsuperuser - create admin
+
 python manage.py runserver
